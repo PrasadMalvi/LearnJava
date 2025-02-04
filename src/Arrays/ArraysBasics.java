@@ -94,6 +94,7 @@ public class ArraysBasics {
 			count--;
 		}
 		
+		//just print the reversed doesnt modify the memory for that use swap
 		String str = "Prasad";
 		char c[] = str.toCharArray();
 		System.out.println("--------------");
