@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -32,7 +33,7 @@ public class RemoveDuplicateArrays {
     public static void main(String[] args) {
     	
     	int nums[] = {1, 1, 2, 6, 3, 2, 3};
-    	
+    	Arrays.sort(nums);
     	Solution s1 = new Solution();
         int result = s1.removeDuplicates(nums);  // Remove duplicates and get count
         
